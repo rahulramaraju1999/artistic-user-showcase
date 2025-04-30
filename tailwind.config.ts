@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Portfolio specific colors
+				navy: '#1A1F2C',
+				highlight: '#8B5CF6',
+				softblue: '#D3E4FD',
+				softgray: '#F1F0FB',
+				softorange: '#FEC6A1'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +91,36 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-out': {
+					'0%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'fade-out': 'fade-out 0.5s ease-out forwards',
+			},
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
 			}
 		}
 	},
