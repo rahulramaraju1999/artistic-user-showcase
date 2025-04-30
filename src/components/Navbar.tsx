@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="section-container py-0">
         <div className="flex items-center justify-between">
           <a href="#home" className="font-bold text-xl md:text-2xl text-navy">
-            Portfolio<span className="text-highlight">.</span>
+            Rahul<span className="text-highlight">.</span>
           </a>
           
           {/* Desktop Navigation */}

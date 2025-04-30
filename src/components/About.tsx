@@ -1,17 +1,16 @@
 
 import { Button } from "@/components/ui/button";
-import { Avatar } from "@/components/ui/avatar";
 
 const About = () => {
   return (
     <section id="about" className="bg-softgray">
       <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Image Column - Using a photo of Grand Canyon */}
+        {/* Image Column */}
         <div className="relative">
           <div className="w-full aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="/lovable-uploads/882fab27-fe7c-4b0d-9aa9-182fd4c5f8f6.png" 
-              alt="At Grand Canyon" 
+              src="/lovable-uploads/ffa221f1-b1b5-4b5b-9276-8a4a4e28dbe1.png" 
+              alt="Raghu Rama Rahul Ramaraju" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent"></div>
@@ -23,27 +22,27 @@ const About = () => {
         <div>
           <h3 className="section-title">About Me</h3>
           <p className="text-gray-600 mb-6">
-            Hi there! I'm a passionate frontend developer and UI/UX designer with 5+ years of experience creating beautiful, functional websites and applications.
+            I'm a motivated Front-End Developer currently pursuing a Master's in Information Technology and Management at UT Dallas. I'm proficient in JavaScript, HTML, CSS, React, and Vue, specializing in building scalable, responsive web applications.
           </p>
           <p className="text-gray-600 mb-6">
-            I specialize in modern JavaScript frameworks like React, Vue.js, and Next.js, and I love working at the intersection of design and development to create seamless user experiences.
+            With expertise in front-end frameworks, API integration, cross-browser compatibility, and object-oriented programming, I bring a strong background in UI/UX design, data structures, algorithms, and SDLC.
           </p>
           <p className="text-gray-600 mb-8">
-            When I'm not coding, you can find me hiking in beautiful places like the Grand Canyon, reading design books, or exploring new coffee shops in the city.
+            I'm based in Dallas, Texas, and seeking to contribute to innovative, customer-centric projects in front-end engineering.
           </p>
           
           <div className="flex flex-wrap gap-6 mb-8">
             <div className="bg-white p-4 rounded-lg shadow-sm">
-              <span className="block text-3xl font-bold text-highlight mb-1">5+</span>
+              <span className="block text-3xl font-bold text-highlight mb-1">2+</span>
               <span className="text-gray-500">Years Experience</span>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-sm">
-              <span className="block text-3xl font-bold text-highlight mb-1">50+</span>
+              <span className="block text-3xl font-bold text-highlight mb-1">10+</span>
               <span className="text-gray-500">Projects Completed</span>
             </div>
             <div className="bg-white p-4 rounded-lg shadow-sm">
-              <span className="block text-3xl font-bold text-highlight mb-1">30+</span>
-              <span className="text-gray-500">Happy Clients</span>
+              <span className="block text-3xl font-bold text-highlight mb-1">3+</span>
+              <span className="text-gray-500">Certifications</span>
             </div>
           </div>
           

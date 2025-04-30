@@ -6,56 +6,56 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const [filter, setFilter] = useState("all");
   
-  const categories = ["all", "web", "design", "mobile"];
+  const categories = ["all", "development", "design", "academic"];
   
   const projects = [
     {
       id: 1,
-      title: "E-commerce Website",
-      category: "web",
+      title: "Emotion-based Music Recommendation System",
+      category: "academic",
       imageUrl: "bg-gradient-to-br from-blue-400 to-purple-500",
-      description: "Modern e-commerce platform built with React and Node.js",
-      tags: ["React", "Node.js", "MongoDB"]
+      description: "A system that recommends music based on 6 emotions using face detection algorithms with 86% accuracy",
+      tags: ["Python", "Machine Learning", "UI/UX", "Gaussian Pyramid", "Markov Model"]
     },
     {
       id: 2,
-      title: "Mobile Banking App",
-      category: "mobile",
+      title: "OfferScope - Deal Aggregation System",
+      category: "academic",
       imageUrl: "bg-gradient-to-br from-green-400 to-cyan-500",
-      description: "Secure and user-friendly banking application for iOS and Android",
-      tags: ["React Native", "Redux", "Firebase"]
+      description: "Deal discovery platform for budget-conscious shoppers with personalized recommendations",
+      tags: ["UI Design", "User Research", "Wireframing", "Prototyping"]
     },
     {
       id: 3,
-      title: "Portfolio Design System",
-      category: "design",
+      title: "Web Application UI Enhancement",
+      category: "development",
       imageUrl: "bg-gradient-to-br from-yellow-400 to-orange-500",
-      description: "Complete design system with components and guidelines",
-      tags: ["Figma", "Design System", "UI/UX"]
+      description: "Enhanced user interfaces for 8 applications, increasing user engagement by 30%",
+      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"]
     },
     {
       id: 4,
-      title: "Travel Booking Platform",
-      category: "web",
+      title: "Accessibility Integration Project",
+      category: "development",
       imageUrl: "bg-gradient-to-br from-pink-400 to-red-500",
-      description: "All-in-one solution for booking flights, hotels, and experiences",
-      tags: ["Vue.js", "Nuxt", "Tailwind CSS"]
+      description: "Integrated accessibility features, improving usability by 70% across devices and operating systems",
+      tags: ["HTML", "CSS", "JavaScript", "ARIA", "Accessibility"]
     },
     {
       id: 5,
-      title: "Health Tracking App",
-      category: "mobile",
+      title: "Salesforce Workflow Automation",
+      category: "development",
       imageUrl: "bg-gradient-to-br from-purple-400 to-indigo-500",
-      description: "Personal health and fitness tracker with analytics",
-      tags: ["Flutter", "Firebase", "Charts"]
+      description: "Automated workflows using Salesforce Process Builder, enhancing operational efficiency",
+      tags: ["Salesforce", "Process Builder", "Workflow Automation"]
     },
     {
       id: 6,
-      title: "Corporate Brand Identity",
-      category: "design",
+      title: "Penetration Testing Project",
+      category: "development",
       imageUrl: "bg-gradient-to-br from-blue-400 to-teal-500",
-      description: "Complete rebrand for a tech startup",
-      tags: ["Branding", "Logo Design", "Style Guide"]
+      description: "Security testing for web and Android app improving 5 security modules by 24.8%",
+      tags: ["Security Testing", "Penetration Testing", "Vulnerability Assessment"]
     }
   ];
   

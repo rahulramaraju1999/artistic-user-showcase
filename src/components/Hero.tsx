@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 const Hero = () => {
   return (
@@ -14,13 +13,13 @@ const Hero = () => {
         <div className="flex-1 flex flex-col items-center md:items-start">
           <p className="text-highlight font-medium mb-4 animate-fade-in">Hello, I'm</p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-navy mb-6 text-center md:text-left animate-fade-in" style={{ animationDelay: "200ms" }}>
-            John Doe
+            Raghu Rama Rahul Ramaraju
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-gray-600 mb-8 text-center md:text-left max-w-2xl animate-fade-in" style={{ animationDelay: "400ms" }}>
-            Frontend Developer & UI/UX Designer
+            Front-End Developer & UI/UX Designer
           </h2>
           <p className="text-gray-500 max-w-xl text-center md:text-left mb-10 animate-fade-in" style={{ animationDelay: "600ms" }}>
-            I create beautiful, responsive websites with modern JavaScript frameworks that drive business growth.
+            Motivated developer with expertise in building scalable, responsive web applications using JavaScript, React, Vue, and more. Currently pursuing a Master's in Information Technology and Management at UT Dallas.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "800ms" }}>
             <Button className="bg-highlight hover:bg-highlight/90 text-white px-8 py-6">
@@ -37,8 +36,8 @@ const Hero = () => {
           <div className="relative">
             <div className="w-[300px] md:w-[400px] aspect-[3/4] rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/882fab27-fe7c-4b0d-9aa9-182fd4c5f8f6.png" 
-                alt="Profile Photo at Grand Canyon" 
+                src="/lovable-uploads/ffa221f1-b1b5-4b5b-9276-8a4a4e28dbe1.png" 
+                alt="Profile Photo of Raghu Rama Rahul Ramaraju" 
                 className="w-full h-full object-cover"
               />
             </div>

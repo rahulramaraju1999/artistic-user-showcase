@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -55,57 +56,57 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-highlight/10 flex items-center justify-center text-highlight shrink-0">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 5H21V19H3V5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M3 5L12 14L21 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                  <Mail className="w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="font-medium text-navy mb-1">Email</h4>
-                  <p className="text-gray-600">contact@johndoe.com</p>
+                  <p className="text-gray-600">rahulramaraju1999@gmail.com</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-highlight/10 flex items-center justify-center text-highlight shrink-0">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 10C20 14.4183 16.4183 18 12 18C7.58172 18 4 14.4183 4 10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M18 18L21 21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                  <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="font-medium text-navy mb-1">Location</h4>
-                  <p className="text-gray-600">San Francisco, CA</p>
+                  <p className="text-gray-600">Dallas, Texas, 75240</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-full bg-highlight/10 flex items-center justify-center text-highlight shrink-0">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22 16.92V19.92C22 20.4704 21.7893 20.9987 21.4142 21.3738C21.0391 21.7489 20.5109 21.9595 19.96 21.96C18.52 22.05 17.08 21.87 15.72 21.42C14.469 21.0082 13.3011 20.3775 12.27 19.56C11.2677 18.7531 10.3948 17.8325 9.67999 16.8C8.85936 15.7203 8.22492 14.5152 7.79999 13.23C7.34999 11.87 7.16999 10.43 7.25999 9C7.26044 8.45045 7.47091 7.92365 7.84505 7.54953C8.21919 7.17541 8.746 6.96496 9.29555 6.96451H12.3C13.2536 6.95811 14.0749 7.62144 14.19 8.57C14.25 9.11 14.36 9.64 14.51 10.15C14.7267 10.9245 14.5813 11.7586 14.11 12.39L13.07 13.43C13.7273 14.5108 14.5586 15.4852 15.53 16.32C16.37 17.29 17.34 18.12 18.42 18.78L19.46 17.74C20.0901 17.272 20.9209 17.1278 21.69 17.35C22.2 17.5 22.73 17.61 23.27 17.67C24.2345 17.7855 24.9059 18.6323 24.89 19.6L22 16.92Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                  <Phone className="w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="font-medium text-navy mb-1">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+1 (214) 892-4416</p>
                 </div>
               </div>
             </div>
             
             {/* Social Media */}
             <div className="mt-10">
-              <h4 className="font-medium text-navy mb-4">Follow Me</h4>
+              <h4 className="font-medium text-navy mb-4">Connect With Me</h4>
               <div className="flex gap-4">
-                {['github', 'linkedin', 'twitter', 'instagram'].map((social, idx) => (
-                  <a 
-                    key={idx}
-                    href="#" 
-                    className="w-10 h-10 rounded-full bg-softgray flex items-center justify-center hover:bg-highlight hover:text-white transition-colors"
-                  >
-                    <span className="sr-only">{social}</span>
-                    <div className="w-5 h-5"></div>
-                  </a>
-                ))}
+                <a 
+                  href="https://github.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-softgray flex items-center justify-center hover:bg-highlight hover:text-white transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                  <span className="sr-only">GitHub</span>
+                </a>
+                <a 
+                  href="https://linkedin.com/in/rahulramaraju/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-softgray flex items-center justify-center hover:bg-highlight hover:text-white transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                  <span className="sr-only">LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>
