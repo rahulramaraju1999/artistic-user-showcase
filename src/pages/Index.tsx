@@ -12,7 +12,10 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <About />
+      <div className="relative">
+        <About />
+        <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white to-transparent z-10"></div>
+      </div>
       <Skills />
       <Projects />
       <Contact />
