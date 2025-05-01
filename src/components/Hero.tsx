@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-[300px] md:w-[400px] aspect-[3/4] rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/lovable-uploads/ffa221f1-b1b5-4b5b-9276-8a4a4e28dbe1.png" 
+                src="/lovable-uploads/e0398206-4b35-4d63-a8a5-4232e2a8c76f.png" 
                 alt="Profile Photo of Raghu Rama Rahul Ramaraju" 
                 className="w-full h-full object-cover"
               />
